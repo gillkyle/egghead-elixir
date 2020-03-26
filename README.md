@@ -1,21 +1,23 @@
-# HelloWorld
+<p align="center">
+    <img alt="Egghead + Elixir" src="https://raw.githubusercontent.com/gillkyle/images/master/elixir-and-egghead.png" width="375" />
+</p>
 
-**TODO: Add description**
+<h1 align="center">
+  Getting Started with Elixir on Egghead
+</h1>
 
-## Installation
+This repository demonstrates beginner level examples for getting started with Elixir in a Hello World project.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `hello_world` to your list of dependencies in `mix.exs`:
+## 🔧 Running locally
 
-```elixir
-def deps do
-  [
-    {:hello_world, "~> 0.1.0"}
-  ]
-end
+Clone the project with git:
+
+```
+git clone https://github.com/gillkyle/egghead-elixir
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/hello_world](https://hexdocs.pm/hello_world).
+Then navigate into the project and run using Mix in an interactive Elixir shell (you will need Elixir installed):
 
+```
+iex -S mix
+```
