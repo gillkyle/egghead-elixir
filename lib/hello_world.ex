@@ -1,6 +1,6 @@
 defmodule HelloWorld do
-  def hello(msg) do
-    "Hello #{msg}"
+  def hello(%{name: username}) do
+    "Hello #{username}"
   end
 
   def hello do
